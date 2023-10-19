@@ -1,1 +1,16 @@
 /* Place CSS styles here */
+
+.featured-item {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.body ul {
+    text-align: left;
+}
+
+
