@@ -13,4 +13,51 @@
     text-align: left;
 }
 
+.top-nav {
+    background-color: #BFC3D9;
+    display: flex;
+    justify-content:center ;
+}
 
+.top-nav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.top-nav a.active {
+    background-color: #E9EBF2;
+    color: black;
+}
+
+.my-work-main {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.work-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: 100%;
+}
+.work-featured-items {
+    background-color: white;
+    display: flex;
+}
+
+h2 {
+    text-align: center;
+}
+.body {
+    background-color: black;
+}
